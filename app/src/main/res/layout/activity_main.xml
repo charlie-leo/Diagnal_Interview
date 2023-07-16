@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <data>
+        <variable
+            name="mainDto"
+            type="com.interview.diagnal.data.MainDTO" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        tools:context=".main.MainActivity">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/movieListRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="-30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mainToolBar"
+            />
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/mainToolBar"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:paddingBottom="20dp"
+            android:background="@drawable/nav_bar"
+            app:title="Romantic Comedy"
+            app:titleTextColor="@color/white"
+            android:foregroundTint="@color/white"
+            app:subtitleTextColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DiagnalInterview" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/white</item>
+
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <item name="android:textColorHint">@color/hint_color</item>
+
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+</resources>

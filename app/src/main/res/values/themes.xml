@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DiagnalInterview" parent="Theme.AppCompat.Light.NoActionBar">
+         <item name="colorPrimary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="actionMenuTextAppearance">@style/MenuIconStyle</item>
+    </style>
+
+    <style name="Theme.DiagnalInterview" parent="Base.Theme.DiagnalInterview" />
+
+    <style name="MenuIconStyle">
+        <item name="android:width">25dp</item>
+        <item name="android:height">25dp</item>
+    </style>
+
+</resources>
